@@ -1,0 +1,235 @@
+.p{
+    font-family:monospace;
+    font-style: italic;
+    font-size: 150%;
+    text-decoration: none;
+    color: black;
+}
+
+.t{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.t1{
+    color: rgb(0,0,0);
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.t2{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.t3{
+    background-image: url(22.jpg);
+    border: solid black;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;  
+}
+
+.r7{
+    border: 3px solid black;
+    border-radius: 100%;
+}
+.s1{
+    color: darkslategrey;
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.t4{
+    color: red;
+    font-size: 30px;
+    font-weight: 400;
+}
+a {
+    color: skyblue;
+    text-decoration: none;
+   }
+a:visited {
+    color: grey;
+   } 
+a:hover {
+    color: red;
+    text-decoration: underline;
+   }
+.img {border:3px solid black;}
+.img:hover {border-color: transparent;}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,cyrillic);
+*{box-sizing: border-box;}
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+nav {background: gray ;}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  transition: .3s cubic-bezier(0.17, 0.91, 0.81, 0.16);
+}
+.topmenu > li {
+  float: left;
+  position: relative;
+  border-left: 1px solid gray;
+}
+.topmenu > li:first-child {border-left: 0;}
+.topmenu > li > a {  
+  padding: 20px 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #FEFDFD;
+  letter-spacing: 2px;
+}
+.topmenu > li > a.active, 
+.submenu a:hover {color: black;}
+.topmenu .fa, 
+.submenu .fa {
+  margin-left: 5px;
+  color: inherit;
+}
+.submenu {
+  position: absolute;
+  z-index: 5;
+  min-width: 200px;
+  background: white;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  visibility: hidden;
+  opacity: 0; 
+  transform-origin: 0% 0%;
+  transform: rotateX(-90deg);
+  transition: .3s linear;  
+}
+.submenu li {position: relative;}
+.submenu li a {
+  color: #282828;
+  padding: 10px 20px;
+  font-size: 13px;
+  border-bottom: 1px solid white;
+}
+.submenu .submenu {
+  position: absolute;
+  left: 100%;
+  top: -1px;
+  transition: .3s linear;
+}
+nav li:hover > .submenu {
+  transform: rotateX(0deg);
+  visibility: visible;
+  opacity: 1;
+}
+@media screen and (min-width: 911px) {
+  .ant-carousel {
+    max-width: 410px;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 910px) {
+  .ant-carousel {
+    max-width: 570px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .ant-carousel {
+    max-width: 270px;
+  }
+}
+
+.ant-carousel {
+  margin: 50px auto auto;
+  padding-top: 10px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.ant-carousel-element {
+  width: 400px;
+  text-align: center;
+}
+
+.ant-carousel {
+  width: auto;
+  position: relative;
+}
+.ant-carousel-hider {
+  overflow: hidden;
+}
+.ant-carousel-list {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+.ant-carousel-element {
+  display: block;
+  flex: 0 0 auto;
+}
+div.ant-carousel-arrow-left,
+div.ant-carousel-arrow-right {
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.6;
+  z-index: 32;
+}
+div.ant-carousel-arrow-left {
+  left: -40px;
+  top: 40%;
+  display: block;
+  background: url("http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-left.png") no-repeat;
+}
+div.ant-carousel-arrow-right {
+  right: -40px;
+  top: 40%;
+  display: block;
+  background: url("http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-right.png") no-repeat;
+}
+div.ant-carousel-arrow-left:hover {
+  opacity: 1.0;
+}
+div.ant-carousel-arrow-right:hover {
+  opacity: 1.0;
+}
+div.ant-carousel-dots {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  z-index: 30;
+  text-align: center;
+}
+span.ant-dot {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  padding: 0;
+  display: inline-block;
+  background-color: #BBB;
+  border-radius: 5px;
+  cursor: pointer;
+}
