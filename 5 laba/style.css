@@ -1,0 +1,811 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.v1 {
+  width: 1920;
+  height: 2305px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2 {
+  width: 100%;
+  height: 750px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v3 {
+  width: 100%;
+  height: 750px;
+  background: url("img/Rectangle.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v4 {
+  width: 515px;
+  height: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 47px;
+  left: 702px;
+  overflow: hidden;
+}
+.v5 {
+  width: 54px;
+  color: rgba(255,255,255,1);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 13px;
+  opacity: 1;
+  text-align: left;
+}
+.v6 {
+  width: 84px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 74px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 13px;
+  opacity: 1;
+  text-align: left;
+}
+.v7 {
+  width: 63px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 178px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 13px;
+  opacity: 1;
+  text-align: left;
+}
+.v8 {
+  width: 170px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 261px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 13px;
+  opacity: 1;
+  text-align: left;
+}
+.v9 {
+  width: 64px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 451px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 13px;
+  opacity: 1;
+  text-align: left;
+}
+.v10 {
+  width: 148px;
+  height: 43px;
+  opacity: 1;
+  position: absolute;
+  top: 33px;
+  left: 405px;
+  overflow: hidden;
+}
+.v11 {
+  width: 84px;
+  color: #0F4898;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-family: Roboto;
+  font-weight: Black;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+
+}
+
+.v12 {
+  width: 64px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 84px;
+  font-family: Roboto;
+  font-weight: Black;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.name {
+  color: #fff;
+}
+.v13 {
+  width: 110px;
+  height: 32px;
+  opacity: 1;
+  position: absolute;
+  top: 38px;
+  left: 1405px;
+  overflow: hidden;
+}
+.v14 {
+  width: 102px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 8px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: right;
+}
+.v15 {
+  width: 110px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 21px;
+  left: 0px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: right;
+}
+.v16 {
+position: absolute;
+width: 1920px;
+height: 0px;
+left: 0px;
+top: 109px;
+border: 1px solid #FFFFFF;
+}
+.v17 {
+  width: 100%;
+  height: 650px;
+  opacity: 1;
+  position: absolute;
+  top: 750px;
+  left: 0px;
+  overflow: hidden;
+}
+.v18 {
+  width: 1135px;
+  height: 650px;
+  background: rgba(244,244,244,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v19 {
+  width: 170px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 100px;
+  left: 547px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.v20 {
+  width: 303px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 148px;
+  left: 547px;
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v21 {
+  width: 427px;
+  height: 450px;
+  background: url("img/Rectangle%205.2.png");
+  opacity: 1;
+  position: absolute;
+  top: 100px;
+  left: 945px;
+  overflow: hidden;
+}
+.v22 {
+  width: 40px;
+  height: 40px;
+  background: url("img/projects__button.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 510px;
+  left: 547px;
+  overflow: hidden;
+}
+.v23 {
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(15,72,152,1);
+  overflow: hidden;
+}
+.v24 {
+  width: 5px;
+  height: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.v25 {
+  width: 40px;
+  height: 40px;
+  background: url("img/projects__button1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 510px;
+  left: 592px;
+  overflow: hidden;
+}
+.v26 {
+  width: 40px;
+  height: 40px;
+  opacity: 0.4000000059604645;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(87,87,87,1);
+  overflow: hidden;
+}
+.v27 {
+  width: 5px;
+  height: 10px;
+  opacity: 0.4000000059604645;
+  position: absolute;
+  top: 15px;
+  left: 23px;
+  overflow: hidden;
+}
+.v28 {
+  width: 428px;
+  height: 200px;
+  background: url("img/Rectangle%205.2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 263px;
+  left: 547px;
+  overflow: hidden;
+}
+.v29 {
+  width: 428px;
+  height: 200px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 0px 20px rgba(0.8777292370796204, 0.8777292370796204, 0.8777292370796204, 0.25);
+  overflow: hidden;
+}
+.v30 {
+  width: 348px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 13px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v31 {
+  width: 100%;
+  height: 780px;
+  opacity: 1;
+  position: absolute;
+  top: 1400px;
+  left: 547px;
+  overflow: hidden;
+}
+.v32 {
+  width: 785px;
+  height: 780px;
+  background: rgba(244,244,244,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 588px;
+  overflow: hidden;
+}
+.v33 {
+  width: 170px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.v34 {
+  width: 303px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 148px;
+  left: 0px;
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v35 {
+  width: 255px;
+  height: 480px;
+  opacity: 1;
+  position: absolute;
+  top: 203px;
+  left: 0px;
+  overflow: hidden;
+}
+.v36 {
+  width: 255px;
+  height: 480px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v37 {
+  width: 255px;
+  height: 480px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 0px 20px rgba(0.8777292370796204, 0.8777292370796204, 0.8777292370796204, 0.25);
+  overflow: hidden;
+}
+.v38 {
+  width: 255px;
+  height: 200px;
+  background: url("img/Rectangle%204.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v39 {
+  width: 64px;
+  color: rgba(52,52,52,1);
+  position: absolute;
+  top: 230px;
+  left: 18px;
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v40 {
+  width: 213px;
+  color: rgba(48,57,66,1);
+  position: absolute;
+  top: 255px;
+  left: 18px;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v41 {
+  width: 125px;
+  height: 40px;
+  opacity: 1;
+  position: absolute;
+  top: 410px;
+  left: 18px;
+  overflow: hidden;
+}
+.v42 {
+  width: 125px;
+  height: 40px;
+  background: rgba(15,72,152,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v43 {
+  width: 86px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 13px;
+  left: 19px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.v44 {
+  width: 215px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 312px;
+  left: 18px;
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v45 {
+  width: 255px;
+  height: 480px;
+  opacity: 1;
+  position: absolute;
+  top: 203px;
+  left: 285px;
+  overflow: hidden;
+}
+.v46 {
+  width: 255px;
+  height: 480px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v47 {
+  width: 255px;
+  height: 480px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 0px 20px rgba(0.8777292370796204, 0.8777292370796204, 0.8777292370796204, 0.25);
+  overflow: hidden;
+}
+.v48 {
+  width: 255px;
+  height: 200px;
+  background: url("img/Rectangle%204.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v49 {
+  width: 64px;
+  color: rgba(52,52,52,1);
+  position: absolute;
+  top: 230px;
+  left: 18px;
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v50 {
+  width: 213px;
+  color: rgba(48,57,66,1);
+  position: absolute;
+  top: 255px;
+  left: 18px;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v51 {
+  width: 125px;
+  height: 40px;
+  opacity: 1;
+  position: absolute;
+  top: 410px;
+  left: 18px;
+  overflow: hidden;
+}
+.v52 {
+  width: 125px;
+  height: 40px;
+  background: rgba(15,72,152,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v53 {
+  width: 86px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 13px;
+  left: 19px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.v54 {
+  width: 215px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 312px;
+  left: 18px;
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v55 {
+  width: 255px;
+  height: 480px;
+  opacity: 1;
+  position: absolute;
+  top: 204px;
+  left: 570px;
+  overflow: hidden;
+}
+.v56 {
+  width: 255px;
+  height: 480px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v57 {
+  width: 255px;
+  height: 480px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 0px 20px rgba(0.8777292370796204, 0.8777292370796204, 0.8777292370796204, 0.25);
+  overflow: hidden;
+}
+.v58 {
+  width: 255px;
+  height: 200px;
+  background: url("img/Rectangle%204.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v59 {
+  width: 64px;
+  color: rgba(52,52,52,1);
+  position: absolute;
+  top: 230px;
+  left: 18px;
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v60 {
+  width: 213px;
+  color: rgba(48,57,66,1);
+  position: absolute;
+  top: 255px;
+  left: 18px;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v61 {
+  width: 125px;
+  height: 40px;
+  opacity: 1;
+  position: absolute;
+  top: 410px;
+  left: 18px;
+  overflow: hidden;
+}
+.v62 {
+  width: 125px;
+  height: 40px;
+  background: rgba(15,72,152,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v63 {
+  width: 86px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 13px;
+  left: 19px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.v64 {
+  width: 215px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 312px;
+  left: 18px;
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v65 {
+  width: 139px;
+  height: 40px;
+  opacity: 1;
+  position: absolute;
+  top: 108px;
+  left: 686px;
+  overflow: hidden;
+}
+.v66 {
+  width: 139px;
+  height: 40px;
+  background: rgba(15,72,152,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v67 {
+  width: 103px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 14px;
+  left: 18px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.v68 {
+  width: 100%;
+  height: 125px;
+  opacity: 1;
+  position: absolute;
+  top: 2180px;
+  left: 0px;
+  overflow: hidden;
+}
+.v69 {
+  width: 100%;
+  height: 125px;
+  background: rgba(50,50,50,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v70 {
+  width: 537px;
+  color: rgba(220,220,220,1);
+  position: absolute;
+  top: 75px;
+  left: 691px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 11px;
+  opacity: 1;
+  text-align: center;
+}
+.v71 {
+  width: 298px;
+  height: 13px;
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 811px;
+  overflow: hidden;
+}
+.v72 {
+  width: 90px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v73 {
+  width: 71px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 115px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v74 {
+  width: 87px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 211px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
